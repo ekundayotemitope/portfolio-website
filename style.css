@@ -1,19 +1,15 @@
-
-
 *{
-    
     box-sizing: border-box;
      text-decoration: none;
     border: none;
-    
 }
-
 .main{
     background-color: black;
     width: 100%;
     margin: 0;
     padding: 0;
 }
+ /* heroe section start */
 h1{
     margin-bottom: 20px;
 }
@@ -28,7 +24,6 @@ h1{
     color: white;
     font-size: 30px;
     font-family: cursive;
-    /* margin-left: 100px; */
 }
 .total .side{
     width: 35%;
@@ -44,87 +39,77 @@ h1{
 .total .icon img{
     height: 20px;
 }
-
-/* second side */
 .total2{
     width: 65%;
     height: 100vh;
     text-align: center;
     color: white;
     align-items: center; 
-    /* margin-top: 30px; */
 }
-.about{
+.button{
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px;
+   }
+   .about .button .btn1 .btn2{
+       justify-content: space-between;
+   }
+   .about .btn1{
+       border: 2px solid orangered;
+       border-radius: 20px;
+       background: white;
+       color: orangered;
+       padding: 10px;
+       cursor: pointer;
+   }
+   .about .btn2{
+       border: 2px solid orangered;
+       border-radius: 20px;
+       background: orangered;
+       color:white;
+       padding: 10px;
+       cursor: pointer;
+   }
+   .about{
     margin-top: 20%; 
     color: orangered;
  } 
+.about p{
+   color:white; 
+   line-height: 30px;
+   font-size: 20px;
+}
+/* heroe section ends */
 
+ /* navbar */
 .navbar {
     position: fixed;
     background-color: white;
     width: 100%;
     top: 0;
     z-index: 1000;
-    display: flex;            /* Use flexbox for layout */
-    justify-content: space-between; /* Space out items evenly */
-    padding: 0 20px;          /* Add some padding on the sides */
+    display: flex;           
+    justify-content: space-between; 
+    padding: 0 20px;          
 }
-
-.navbar a {
+.navbar a{
     padding: 20px;
     margin-top: 10px;
     color: black;
     text-decoration: none;
     font-size: 20px;
 }
-
 .navbar a:hover {
     color: orangered;
 }
+/*navbar end */
 
-
-
-.about p{
-   color:white; 
-   line-height: 30px;
-   font-size: 20px;
-}
-.navbar a:hover{
-    color: orangered;
-}
-.button{
- margin-top: 20px;
- justify-content: space-between;
- padding: 10px;
-}
-.about .button .btn1 .btn2{
-    justify-content: space-between;
-}
-.about .btn1{
-    border: 2px solid orangered;
-    border-radius: 20px;
-    background: white;
-    color: orangered;
-    padding: 10px;
-    cursor: pointer;
-}
-.about .btn2{
-    border: 2px solid orangered;
-    border-radius: 20px;
-    background: orangered;
-    color:white;
-    padding: 10px;
-    cursor: pointer;
-}
-/* my work */
+/* About */
 .who{
 height: 100vh;
 background-color: black;
-/* align-items: center; */
 display: flex;
 gap: 3rem;
-justify-content: space-evenly;
-text-align: center;
 }
 .who h2{
     color: white;
@@ -133,14 +118,9 @@ text-align: center;
     color: orangered;
 }
 .hand img{
-/* float: right; */
-/* margin-bottom: 40px; */
 width: 70%;
-/* align-items: center; */
 margin-top: 25%;
-
-    border-radius: 180px;
-    /* margin-right: 80px; */
+border-radius: 180px;
 }
 .leg h1{
     color: white;
@@ -151,27 +131,24 @@ margin-top: 25%;
     font-size: 20px;
 }
 .who .leg{
- /* width: 60%; */
  margin-top: 10%;
  margin-left: 20px;
 }
+/* About ends */
+
+/* services */
 .service{
-height: 90vh;
+padding: 0px 0px 35px 0px;
 background: orangered;
 color: white;
-
 }
 .light{
     justify-content: space-around;
     display: flex;
-    /* row-gap: 3px; */
     gap: 10px;
-    /* margin-top: 20px */
 }
 .vee{
-   
-    color: white;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 .service h1{
     margin-top: 30px;
@@ -179,36 +156,33 @@ color: white;
 }
 .work {
     width: 30%;
-    height: 70%;
+    height: 50%;
     border: 1px;
     font-size: 20px;
-    margin-top: 70px;
+    margin-top: 0px;
     text-align: center;
-    
     padding: 50px;
-    /* padding-right: 5%;  */
-    background-color: black;
+ background-color: black;
     border-radius: 10px;
     line-height: 30px;
-    
 }
 .work:hover{
 background-color: orangered;
 }
+/* services end */
+
+/* project */
 .experience{
     background-color: black;
     height: 100vh;
-    
-   
 }
 .cheek{
     display: flex;
 margin-left: 3%;
   align-content: center;
-  
+  padding-top: 10px;
   
 }
-
 .ear{
     color: white;
     margin-left: 20px;
@@ -217,34 +191,21 @@ margin-left: 3%;
 .cheek img{
     margin-top: 40px;
     border-radius: 15px;
-    /* margin-top: 10px;  */
-
-/* flex-wrap: wrap; */
 }
+/* project ends */
 
-
-    
-
-.nostril:hover{
-    background-color: orangered;
-}
 /* contact */
 .Contact{
     background-color: black;
     color: white;
-    /* margin: none; */
-    
-    height: 81vh;
+height: 81vh;
 }
 .Contact .part{
     display: flex;
-   /* margin-top: 80px; */
    justify-content: space-around;
 }
 .Contact .port{
-/* margin-left: 100px; */
 line-height: 52px;
-
 }
 .Contact h1{
     color: white;
@@ -278,12 +239,7 @@ form{
     width: 50%;
     margin-top: 20px;
 }
-.formm{
-    /* width: 50%; */
-}
-
 .bvn{
-/* margin-left: 53%;  */
 margin-top: 10px;
 border-radius: 5px;
 padding: 10px;
@@ -306,54 +262,5 @@ margin: auto;
     height: 50px;
     margin-top: 35px;
     float: right;
-    /* margin-right: 10px; */
 }
-/* Navbar toggle button (hamburger) */
-.navbar-toggle {
-    display: none; /* Hidden by default */
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-/* Navbar toggle icon */
-.navbar-toggle-icon {
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    position: relative;
-}
-
-.navbar-toggle-icon::before,
-.navbar-toggle-icon::after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    transition: 0.3s;
-}
-
-.navbar-toggle-icon::before {
-    top: -10px;
-}
-
-.navbar-toggle-icon::after {
-    top: 10px;
-}
-
-/* Navbar menu styles */
-.navbar-menu {
-    display: flex;
-    gap: 20px;
-}
-
-.navbar-menu a {
-    color: white;
-    text-decoration: none;
-}
-
-.navbar-menu a:hover {
-    color: orangered;
-}
+/* contact ends */
